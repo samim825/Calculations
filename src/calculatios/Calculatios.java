@@ -18,6 +18,8 @@ public class Calculatios {
        
         Formulas formulas = new Formulas();
         
+        System.out.println(formulas.countDigit(100));
+        
         if(formulas.isLeapYear(2016)){
             System.out.println("Leap year");
         }

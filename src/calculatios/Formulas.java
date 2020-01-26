@@ -176,7 +176,17 @@ public class Formulas {
     }
     
     //Leap check end
-    // This is testing commit
+    public int countDigit(int number){
+        
+        int digitCount = 0;
+        
+        while(number>0){
+            number = number/10;
+            digitCount++;
+        }
+        
+        return digitCount;
+    }
     
     
     
