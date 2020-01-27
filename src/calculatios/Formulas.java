@@ -361,7 +361,6 @@ public class Formulas {
         return gcd;
     }
     // Calculate Least common multiple (LCM) of two numbers
-    @SuppressWarnings("empty-statement")
     public int findLCM(int a,int b){
         int max,lcm=1;
         if(a>b)
